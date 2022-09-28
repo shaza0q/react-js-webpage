@@ -48,7 +48,7 @@
 .gpt3__navbar-sign button,.gpt3__navbar-menu-container button{
     color:#fff;
     padding:0.5rem 1rem;
-    background: #30D5C8;
+    background: var(--color-button);
     font-family: var(--font-family);
     line-height: 25px;
     font-size:18px;

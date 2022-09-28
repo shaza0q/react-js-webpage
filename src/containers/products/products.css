@@ -1,0 +1,42 @@
+.gpt3__products{
+    display: flex;
+    background:#fff;
+    flex-direction: column;
+    padding:1.5rem 0;
+}
+
+.gpt3__products-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}
+
+.gpt3__products-heading h1{
+    font-family: var(--font-family);
+    color:var(--gradient-text);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.gpt3__products-var{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    margin:2rem 10rem;
+    padding: 1.5rem;
+    background:-moz-radial-gradient(circle at 41% 24%, rgba(8, 112, 153, 1) 0%, rgba(141, 130, 238, 1) 98%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 41% 24%, rgba(8, 112, 153, 1) 0%, rgba(141, 130, 238, 1) 98%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 41% 24%, rgba(8, 112, 153, 1) 0%, rgba(141, 130, 238, 1) 98%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 41% 24%, rgba(8, 112, 153, 1) 0%, rgba(141, 130, 238, 1) 98%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 41% 24%, rgba(8, 112, 153, 1) 0%, rgba(141, 130, 238, 1) 98%);
+}

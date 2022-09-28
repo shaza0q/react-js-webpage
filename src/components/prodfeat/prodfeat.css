@@ -1,36 +1,48 @@
-.gpt3__features-container__feature{
+.gpt3__prodfeat{
+    display: flex;
+    margin:1.5rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.gpt3__prodfeat-desc{
     display: flex;
     flex-direction: column;
     margin:1.5rem 1rem;
 }
 
-.gpt3__features-container__feature-title{
+.gpt3__prodfeat-heading{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding:0.5rem;
+    flex-direction: flex-start;
 }
 
-.gpt3__features-container__feature-title h1{
+.gpt3__prodfeat-heading h2{
     font-family: var(--font-family);
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 800;
     color:#fff;
     line-height: 45px;
-
 }
 
-.gpt3__features-container__feature-text{
+.gpt3__prodfeat-text{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
 }
 
-.gpt3__features-container__feature-text p{
+.gpt3__prodfeat-text p{
     font-family: var(--font-family);
     font-size: 18px;
     font-weight: 500;
     color:var(--color-subtext);
     line-height: 20px;
+}
+
+.gpt3__prodfeat-img{
+    display: flex;
+    flex-direction: flex-end;
+}
+
+.gpt3__prodfeat-img img{
+    max-width: 250px;
 }
