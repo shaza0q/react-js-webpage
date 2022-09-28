@@ -8,7 +8,7 @@ const Menu=()=>(
     <p><a href='#home'>Home</a></p>
     <p><a href='#cval'>What is Medoc</a></p>
     <p><a href='#products'>Our Services</a></p>
-    <p><a href='#blog'>Blogs</a></p>
+    <p><a href='#contact'>Contact us</a></p>
   </>
 )
 

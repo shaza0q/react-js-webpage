@@ -23,7 +23,28 @@
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 40px;
-    color:var(--color-text);
+    color:#fff;
+    cursor: pointer;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(3deg, rgba(7, 83, 64, 1) 0%, rgba(17, 78, 103, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(3deg, rgba(7, 83, 64, 1) 0%, rgba(17, 78, 103, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(3deg, rgba(7, 83, 64, 1) 0%, rgba(17, 78, 103, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075340', endColorstr='#114E67', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(3deg, rgba(7, 83, 64, 1) 0%, rgba(17, 78, 103, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(3deg, rgba(7, 83, 64, 1) 0%, rgba(17, 78, 103, 1) 100%);
+
+    border-radius: 10px;
+    padding: 0.5rem;
 }
 
 .gpt3__footer-links{
@@ -87,3 +108,29 @@
     width: 40px;
     cursor: pointer;
 }
+
+.gpt3__footer-social-logo a img:hover{
+    transform:scale(1.2);
+    background-color: #fff;
+    border-radius:5px;
+}
+
+@media screen and (max-width:1050px){
+    .gpt3__footer-heading h2{
+        line-height: 45px;
+    }
+    .gpt3__footer-heading p{
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width:750px){
+    .gpt3__footer-links_uphead h3{
+        line-height: 25px;
+    }
+    .gpt3__footer-links_uphead p{
+        line-height: 30px;
+    }
+}
+
+

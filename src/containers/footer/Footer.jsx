@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div className='gpt3__footer-links_updates'>
-          <div className='gpt3__footer-links_uphead' id='#contact'>
+          <div className='gpt3__footer-links_uphead' id='contact'>
             <h3>For more updates</h3>
             <p>Contact us</p>
             <div className='gpt3__footer-social-logo'>

@@ -46,3 +46,9 @@
 .gpt3__prodfeat1-img img{
     max-width: 250px;
 }
+
+@media screen and (max-width:550px) {
+    .gpt3__prodfeat1{
+        flex-direction: column;
+    }
+}
